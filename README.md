@@ -47,4 +47,4 @@ MIT © 2025 Godric Tan
 
 ## Live Preview
 
-[https://Miyamizu-MitsuhaSang.github.io/Dicts/](https://Miyamizu-MitsuhaSang.github.io/Dicts/)
+[https://miyamizu-mitsuhasang.github.io/Dicts/](https://miyamizu-mitsuhasang.github.io/Dicts/)
