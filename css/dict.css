@@ -1,0 +1,263 @@
+.wrapper {
+  margin: 0px auto;
+  width: 1030px;
+}
+
+body {
+  background-color: #fafbfd;
+}
+
+.header {
+  height: 174px;
+  background-color: #fff;
+}
+
+.header .wrapper {
+  padding-top: 57px;
+  display: flex;
+}
+
+/* logo */
+.logo a {
+  display: block;
+  width: 237px;
+  height: 61px;
+  background-image: url(../images/LOGO.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 31px;
+  padding-left: 100px;
+  padding-top: 15px;
+  font-family: 'deserta';
+}
+
+/* nav */
+.nav {
+  margin-left: 189px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  /* padding-right: 53px; */
+  font-size: 20px;
+}
+
+.nav li a {
+  display: block;
+  width: 87px;
+  margin-right: 53px;
+  /* padding: center center; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  /* line-height: 34px; */
+  font-size: 20px;
+}
+
+.nav li .active,
+.nav li a:hover {
+  border-bottom: 4px solid #005ae0;
+}
+
+/* user */
+.user {
+  margin-left: 29px;
+  width: 158px;
+}
+
+.user ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user li {
+  flex: 1;
+  text-align: center;
+  width: 42px;
+  padding-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user li a {
+  display: inline-block;
+}
+
+.user .portrait {
+  /* display: inline-block; */
+  width: 42px;
+  height: 42px;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+  border: 3px solid #005ae0;
+}
+
+.user .notification {
+  /* display: inline-block; */
+  background-image: url(../images/bell.png);
+  width: 25px;
+  height: 32px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.user .other {
+  /* display: inline-block; */
+  width: 42px;
+  height: 42px;
+  background-image: url(../images/icon_任务栏收缩.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* 搜索框 */
+.searchbar {
+  height: 88px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.searchbar .wrapper {
+  display: flex;
+  position: relative;
+}
+
+.searchbar .lang {
+  position: absolute;
+  display: inline-block;
+  background-color: #005ae0;
+  height: 56px;
+  top: 16px;
+  left: 111px;
+  width: 184px;
+  border-radius: 28px;
+  line-height: 56px;
+  font-size: 24px;
+  color: #fff;
+  z-index: 2;
+}
+
+.searchbar input {
+  position: absolute;
+  flex: 1;
+  margin: 0 auto;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 804px;
+	height: 56px;
+	border: solid 5px #005ae0;
+  border-radius: 28pc;
+  padding-left: 207px;
+  background-color: transparent;
+  font-size: 20px;
+  outline: none;
+}
+.searchbar input::placeholder {
+  font-size: 20px;
+  line-height: 56px;
+}
+
+.searchbar .searchbuttom {
+  align-self: center;
+  display: inline-block;
+  margin-top: 16px;
+  width: 56px;
+  height: 56px;
+  margin-left: 859px;
+  padding: 3px;
+  background-image: url(../images/search.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-color: #005ae0;
+  background-position: center center;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+}
+
+/* AI assistance */
+.ai {
+  position: fixed;
+  right: 0;
+  width: 137px;
+  height: 56px;
+  background-image: linear-gradient(
+  90deg,
+  #005ae0 0%,
+  #ffffff 100%
+);
+  border-top-left-radius: 38px;
+  border-bottom-left-radius: 38px;
+}
+
+.ai a {
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  line-height: 56px;
+
+  background-image: url(../images/AI_money.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding-left: 58px;
+}
+
+/* footer */
+.footer {
+  height: 570px;
+  background-image: linear-gradient(180deg, 
+		transparent 0%, 
+		#005ae0 100%);
+  /* margin-top: 195px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer .right {
+  height: 100%;
+  width: 584px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 589px; */
+}
+
+.footer .right dl {
+  /* margin-right: 190px; */
+  margin-top: 195px;
+  flex: 1;
+  height: 1em;
+  /* margin-bottom: 233px; */
+}
+
+.footer .right dt {
+  color: #005ae0;
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+
+.footer .right a {
+  color: #666;
+  font-size: 16px;
+  line-height: 37px;
+  opacity: 0.45;
+}

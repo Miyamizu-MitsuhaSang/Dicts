@@ -1,0 +1,42 @@
+/* Deserta */
+@font-face {
+  font-family: 'Deserta';
+  src: url(../fonts/Deserta.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Inter Variable */
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-VariableFont_opsz_wght.woff) format('woff-variations'),
+       url(../fonts/src/Inter-VariableFont_opsz\,wght.ttf) format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* 基础公共样式：清除默认样式 + 设置通用样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font: 14px/1.5  'Inter', "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif, 'Deserta';
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.deserta {
+  font-family: 'Deserta', "Microsoft Yahei";
+}
