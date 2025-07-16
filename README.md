@@ -20,8 +20,14 @@ Open `index.html` in your browser and you can access all the files through the h
 Dicts/
 ├── index.html
 ├── css/
+│  ├── base.css
+│  ├── index.css
+│  ├── login.css
+│  ├── dict.css
 ├── fonts/
 ├── html/
+│  ├── dict.html
+│  ├── login.html
 ├── images/
 └── README.md
 ```
