@@ -12,7 +12,7 @@ Considering that the current dictionaries of foreign languages except English is
 
 ## Getting Started
 
-Open `index.html` in your browser.
+Open `index.html` in your browser and you can access all the files through the hyperlink provided in the screen.
 
 ## File Structure
 
